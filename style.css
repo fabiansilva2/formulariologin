@@ -172,14 +172,14 @@ form input[type="submit"]:hover{
 }
 
 @media(max-width:576px){
-    body{ 
+    body{ !important
         background: linear-gradient(45deg, #8e2de2, #4a00e0);
         background-repeat: repeat;
         height: 100%;
         width: 100%;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: left;
+        justify-content: left;
         margin: 0 auto;
     }
 
@@ -203,8 +203,5 @@ form input[type="submit"]:hover{
         border-radius: 8px;
         background: linear-gradient(45deg, #8e2de2, #4a00e0);
     }
-
-
-
     
 }
