@@ -193,6 +193,13 @@ form input[type="submit"]:hover{
     
     }
     
+    main h2{
+        font-weight: 600;
+        margin-bottom: 2rem;
+        margin-left: 0;
+        position: relative;
+    }
+    
     main h2::before{
         content: '';
         position: absolute;
@@ -230,7 +237,7 @@ form input[type="submit"]:hover{
 
     main h2{
         font-weight: 600;
-        margin-bottom: 0;
+        margin-bottom: 2rem;
         margin-left: 0;
         position: relative;
     }
