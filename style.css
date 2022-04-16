@@ -188,7 +188,7 @@ form input[type="submit"]:hover{
 
 @media(max-width:960px){
     main h2::before{ 
-        margin-bottom: -1px;
+        margin-bottom: -1.2px;
         content: '';
         position: absolute;
         height: 4px;
