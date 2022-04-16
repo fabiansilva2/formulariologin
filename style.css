@@ -12,7 +12,7 @@ body{
     background: linear-gradient(45deg, #8e2de2, #4a00e0);
     background-repeat: no-repeat;
     min-height: 100vh;
-    min-width: 100vh;
+    min-width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -213,7 +213,7 @@ form input[type="submit"]:hover{
     
 }
 
-@media(max-width:960px){
+/*@media(max-width:960px){
     body{ !important
         background: linear-gradient(45deg, #8e2de2, #4a00e0);
         background-repeat: repeat;
@@ -254,4 +254,4 @@ form input[type="submit"]:hover{
     }
 
     
-}
+}*/
